@@ -136,7 +136,7 @@ function Footer() {
             </div>
 
             <div id='copyrights' className='py-1'>
-               <p className='text-center text-light'> Designed by <span className='text-danger'>Laxman</span> | All Rights Reserved</p>
+               <p className='text-center text-light'> Designed by <span className='text-danger'>Hope</span> | All Rights Reserved</p>
             </div>
 
         </>
