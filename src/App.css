@@ -1,0 +1,418 @@
+/* @import './bgImage.png'; */
+
+/* body{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+} */
+
+
+/***************** APP.CSS ****************/
+/***************** APP.CSS ****************/
+
+nav{
+    z-index: 1;
+}
+
+a.nav-link{
+	color: rgb(0, 0, 0);
+}
+
+a.nav-link:hover{
+	color: rgb(255,0,0);
+}
+
+.rounded-circle{
+	height: 440px;
+	width: 500px;
+	opacity: 0.9;
+}
+
+.homepage-bg{
+    background-image: url('./bgImage.png');
+    min-height: 800px;
+}
+
+/* .homepage-bg .homepage-txt{
+	position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+} */
+
+.homepage-txt h1{
+    font-weight: 500;  
+    margin-top: -55px;
+    cursor: context-menu;
+    -webkit-text-stroke:1px;
+    -webkit-text-stroke-color: rgba(226, 20, 20, 0.723);
+    -webkit-text-fill-color: whitesmoke;
+}
+
+.homepage-txt h2{
+    letter-spacing: 0.3px;
+    font-weight: 500;
+    cursor: context-menu;
+    /* color: rgba(255, 0, 0, 0.927); */
+}
+
+#underline-img{
+    position: absolute;
+    background-repeat: no-repeat;
+    width: 375px;
+    height: 135px;
+    margin-top: -60px;
+    margin-left: -33px;
+  
+}
+
+#caret-down{
+    position: relative;
+    animation-name: caretdown ,caretborderAnimation;
+    animation-duration: 2s,2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes caretdown{
+    0%, 20%, 50%, 80%, 100%{
+        top:0px;
+    }
+    60%{
+        top:33px;
+    }
+    40%{
+        top:16px;
+    }
+}
+
+@keyframes caretborderAnimation{
+    0%{
+        border-bottom: 2px solid red;
+        border-radius: 40px;
+    }
+    25%{
+        box-shadow: 1px 1px 2px blue;
+        border-radius: 40px;
+    }
+    50%{
+        border-top: 2px solid red;
+        border-radius: 40px;
+    }
+    75%{
+        box-shadow: 1px 1px 2px blue,
+                    -1px -1px 2px blue;
+        border-radius: 40px;
+    }
+    100%{
+        border-bottom: 2px solid red;
+        border-radius: 40px;
+    }
+}
+
+.nav1::after
+{
+    content: " ";
+    position: absolute;
+    /* background-color: red; */
+    background-image: linear-gradient(to right, red,black);
+    border-radius: 10px;
+    width: 0px;
+    height: 3px;
+    transition: width 0.5s;   
+    margin-top: 25px;
+    margin-left: -40px;
+}
+
+.nav1:hover::after
+{
+    width:42px;
+    transition-timing-function:linear;
+}
+
+.nav2::after
+{
+    content: " ";
+    position: absolute;
+    /* background-color: red; */
+    background-image: linear-gradient(to right, red,black);
+    border-radius: 10px;
+    width: 0px;
+    height: 3px;
+    transition: width 0.5s;   
+    margin-top: 25px;
+    margin-left: -40px;
+}
+
+.nav2:hover::after
+{
+    width:41px;
+    transition-timing-function:linear;
+}
+
+.nav3::after
+{
+    content: " ";
+    position: absolute;
+    /* background-color: red; */
+    background-image: linear-gradient(to right, red,black);
+    border-radius: 10px;
+    width: 0px;
+    height: 3px;
+    transition: width 0.5s;   
+    margin-top: 25px;
+    margin-left: -93px;
+}
+
+.nav3:hover::after
+{
+    width:95px;
+    transition-timing-function:linear;
+}
+
+.nav4::after
+{
+    content: " ";
+    position: absolute;
+    /* background-color: red; */
+    background-image: linear-gradient(to right, red,black);
+    border-radius: 10px;
+    width: 0px;
+    height: 3px;
+    transition: width 0.5s;   
+    margin-top: 25px;
+    margin-left: -29px;
+}
+
+.nav4:hover::after
+{
+    width:30px;
+    transition-timing-function:linear;
+}
+
+.nav5::after
+{
+    content: " ";
+    position: absolute;
+    /* background-color: red; */
+    background-image: linear-gradient(to right, red,black);
+    border-radius: 10px;
+    width: 0px;
+    height: 3px;
+    transition: width 0.5s;   
+    margin-top: 25px;
+    margin-left: -50px;
+}
+
+.nav5:hover::after
+{
+    width:50px;
+    transition-timing-function:linear;
+}
+
+#scroll-display{
+	width: 0px;
+	background-color: red;
+	height: 4px;
+	position:fixed;
+	border-radius: 50px;
+	z-index:1
+}
+
+.cards{
+    height:3px;
+    background-color: rgba(235, 15, 15, 0.553);
+    transition: height 0.8s;
+}
+
+div.cards:hover{
+    transition-timing-function: ease-out;
+    height: 266px;
+    background-color: rgba(248, 0, 0, 0.553);
+}
+
+/***************** APP.CSS ****************/
+/***************** APP.CSS ****************/
+
+
+
+/***************** ABOUT-US.CSS ****************/
+/***************** ABOUT-US.CSS ****************/
+
+section{
+    position: relative;
+    bottom: 0%;
+}
+
+#border-vertical{
+    height: 110px;
+    width: 2px;
+    background-color: #dc3545;
+}
+
+.design-line{
+    height: 4px;
+    width: 90px;
+    position: relative;
+    /* left: 50%; */
+    background-color: crimson;
+}
+
+.accordion-body{
+    text-align: justify;
+}
+
+button.accordion-button{
+    font-size: large;
+    font-weight: 500;
+}
+
+button.accordion-button:focus{
+    background-color: #dc3545;
+    color: whitesmoke;
+}
+
+/***************** ABOUT-US.CSS ****************/
+/***************** ABOUT-US.CSS ****************/
+
+
+/***************** STAFF.CSS ****************/
+/***************** STAFF.CSS ****************/
+
+
+#section-divider h5{
+    width: 90px;
+    height: 1px;
+    margin-top: 9px;
+    background-color: rgb(0, 0, 0);
+}
+
+.staff img{
+    padding: 7px;
+    transition: padding 0.6s, box-shadow 0.5s linear,transform 1s;
+    height: 300px;
+    border: 0px solid red;
+    box-shadow: 0.9px 0.9px 3px #0d6efd,
+                -1.5px -1.5px 3px #dc3545;
+}
+
+.staff img:hover{
+    /* padding: 10px; */
+    width: auto;
+    height: 300px;
+    transform: scale(0.9);
+    opacity: 0.8;
+    box-shadow: -1.6px -1.6px 9px #0d6efd,
+                4px 4px 10px #dc3545;
+}
+
+/***************** STAFF.CSS ****************/
+/***************** STAFF.CSS ****************/
+
+
+/***************** ACHEIVMENTS.CSS ****************/
+/***************** ACHEIVMENTS.CSS ****************/
+
+
+.carousel-item img{
+    padding: 0px;
+    transition: padding 0.7s;
+}
+
+.carousel-item img:hover{
+    padding: 17px;
+}
+
+.carousel-caption span{
+    background-color: rgb(0, 0, 255);
+    border-radius: 20px;
+}
+
+ol li span{
+    font-weight: bold;
+}
+
+/***************** ACHEIVMENTS.CSS ****************/
+/***************** ACHEIVMENTS.CSS ****************/
+
+/***************** CONTACT-US.CSS ****************/
+/***************** CONTACT-US.CSS ****************/
+
+#form-submit-btn{
+    box-shadow: -2.7px -2.7px 3px rgb(214, 18, 18);
+}
+
+:is(#form-submit-btn,#staffbtn button):hover{
+    box-shadow: 2.7px 2.7px 3px rgb(214, 18, 18);
+}
+
+textarea,input[type='text'],input[type='tel'],input[type='email']{
+    caret-color: red;
+}
+
+#contactus-img{
+    position: relative;
+    min-height: 290px;
+    background-repeat: no-repeat;
+    opacity: 0.8;
+}
+
+#contactus-img-text{
+    position: absolute;
+}
+
+#contactus-text-h4{
+    font-weight: 700;  
+    -webkit-text-stroke:0.6px;
+    -webkit-text-stroke-color: rgba(226, 20, 20, 0.723);
+    -webkit-text-fill-color: whitesmoke;
+}
+
+
+/***************** CONTACT-US.CSS ****************/
+/***************** CONTACT-US.CSS ****************/
+
+/***************** FOOTER.CSS ****************/
+/***************** FOOTER.CSS ****************/
+
+
+footer{
+    height: auto;
+    background-color: #051f4bf7;
+    position: relative;
+}
+
+.back-line{
+    height: 0.1px;
+    width: auto;
+    background-color: white;    
+}
+
+.media-icons a{
+    text-decoration: none;
+}
+
+:is(#contact-staff,.contact-us-icons) a i{
+    transition: transform 0.7s;
+}
+
+:is(#contact-staff,.contact-us-icons) a:hover i{
+    transform: rotate(360deg);
+}
+
+:is(#footer-contact-info,#footer-quick-links) a{
+    color: #fff;
+}
+
+:is(#footer-contact-info,#footer-quick-links) a:hover{
+    color:  #ffc107;
+}
+
+:is(#footer-contact-info,#footer-quick-links) div span{
+    transition: padding-left 0.5s;
+}
+
+:is(#footer-contact-info,#footer-quick-links) div span:hover {
+    padding-left: 10px;
+}
+
+
+/***************** FOOTER.CSS ****************/
+/***************** FOOTER.CSS ****************/
