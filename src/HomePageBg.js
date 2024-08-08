@@ -9,7 +9,7 @@ class HomePageBg extends Component {
 						
                 {/* HOME PAGE TEXT */}
                 <div className="homepage-txt text-center text-danger">
-                    <h1 className='display-3 pt-2'>
+                    <h1 className='display-3'>
                         Learn To Read
                     </h1>
                     
