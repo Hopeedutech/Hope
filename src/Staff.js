@@ -47,9 +47,8 @@ class Staff extends Component {
                                         <div className="modal-body d-flex flex-column justify-content-center align-items-center py-5">
                                             <h5>Founder</h5>
                                             <small className="">MTech, MSc, BA, PGDCA</small>
-                                            <p className="pt-3">Lorem ipsum dolor sit amet Sed nec molestie justo</p>
 
-                                            <div className="d-flex flex-row media-icons" id='contact-staff'>
+                                            <div className="d-flex flex-row media-icons mt-3" id='contact-staff'>
                                                 <a href="https://www.facebook.com/sravantheemperor?mibextid=ZbWKwL"
                                                     target='_blank'
                                                     className="btn btn-outline-danger mx-1">
@@ -104,9 +103,8 @@ class Staff extends Component {
                                         <div className="modal-body d-flex flex-column justify-content-center align-items-center py-5">
                                             <h5>Curriculum Advisor</h5>
                                             <small className="">MA, PGCTE, (PhD) </small>
-                                            <p className="pt-3">Lorem ipsum dolor sit amet Sed nec molestie justo</p>
 
-                                            <div className="d-flex flex-row media-icons" id='contact-staff'>
+                                            <div className="d-flex flex-row media-icons mt-3" id='contact-staff'>
                                                 <a href="https://www.facebook.com/ushakiranr?mibextid=LQQJ4d"
                                                     target='_blank'
                                                     className="btn btn-outline-danger 4 mx-1">
@@ -160,9 +158,8 @@ class Staff extends Component {
                                         <div className="modal-body d-flex flex-column justify-content-center align-items-center py-5">
                                             <h5>Co-Ordinator </h5>
                                             <small className="">MSc, B.Ed</small>
-                                            <p className="pt-3">Lorem ipsum dolor sit amet Sed nec molestie justo</p>
 
-                                            <div className="d-flex flex-row media-icons" id='contact-staff'>
+                                            <div className="d-flex flex-row media-icons mt-3" id='contact-staff'>
                                                 <a href="#" className="btn btn-outline-danger 4 mx-1">
                                                     <i className="fa-brands fa-facebook"></i>
                                                 </a>
@@ -213,9 +210,8 @@ class Staff extends Component {
                                         <div className="modal-body d-flex flex-column justify-content-center align-items-center py-5">
                                             <h5>IT Department</h5>
                                             <small className="">B.TECH</small>
-                                            <p className="pt-3">Lorem ipsum dolor sit amet Sed nec molestie justo</p>
 
-                                            <div className="d-flex flex-row media-icons" id='contact-staff'>
+                                            <div className="d-flex flex-row media-icons mt-3" id='contact-staff'>
                                                 <a href="#" className="btn btn-outline-danger 4 mx-1">
                                                     <i className="fa-brands fa-facebook"></i>
                                                 </a>
@@ -264,11 +260,10 @@ class Staff extends Component {
                                             <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                         </div>
                                         <div className="modal-body d-flex flex-column justify-content-center align-items-center py-5">
-                                            <h6>HUMAN RESOURCE AND ADMINIST5ATIVE MANAGER</h6>
+                                            <h6>HUMAN RESOURCE AND ADMINISTRATIVE MANAGER</h6>
                                             <small className="">BTech</small>
-                                            <p className="pt-3">Lorem ipsum dolor sit amet Sed nec molestie justo</p>
 
-                                            <div className="d-flex flex-row media-icons" id='contact-staff'>
+                                            <div className="d-flex flex-row media-icons mt-3" id='contact-staff'>
                                                 <a href="https://www.facebook.com/rasagna.nacharaju?mibextid=ZbWKwL" 
                                                     target='_blank'
                                                     className="btn btn-outline-danger 4 mx-1">

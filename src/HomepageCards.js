@@ -1,6 +1,6 @@
 import React from 'react'
 
-import educationpng from './educationpng.png'
+// import educationpng from './educationpng.png'
 import Hope from './HOPE.jpg'
 
 import Trendingcourses from './trending courses.jpg'
@@ -35,8 +35,7 @@ function HomepageCards() {
 
                         <h4 className="pb-2">Trending courses</h4>
                         <p className="pb-2">
-                            Progressive Classes, Expert Classes, Preservence Classes
-
+                            1st to 12th regular activity based classes with carrier guidance peer  collaboration and experiments
                         </p>
 
                     </div>

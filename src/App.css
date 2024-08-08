@@ -27,8 +27,9 @@ a.nav-link:hover{
 }
 
 .homepage-bg{
-    background-image: url('./bgImage.png');
-    min-height: 800px;
+    background-image: url('./bgImage.jpg');
+    background-repeat: no-repeat;
+    min-height: 710px;
 }
 
 /* .homepage-bg .homepage-txt{
@@ -40,11 +41,11 @@ a.nav-link:hover{
 
 .homepage-txt h1{
     font-weight: 500;  
-    margin-top: -55px;
+    margin-top: 105px;
     cursor: context-menu;
     -webkit-text-stroke:1px;
-    -webkit-text-stroke-color: rgba(226, 20, 20, 0.723);
-    -webkit-text-fill-color: whitesmoke;
+    -webkit-text-stroke-color: rgba(31, 25, 25, 0.723);
+    -webkit-text-fill-color: rgb(242, 241, 241);
 }
 
 .homepage-txt h2{
@@ -60,8 +61,7 @@ a.nav-link:hover{
     width: 375px;
     height: 135px;
     margin-top: -60px;
-    margin-left: -33px;
-  
+    margin-left: -33px; 
 }
 
 #caret-down{

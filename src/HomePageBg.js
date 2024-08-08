@@ -9,7 +9,7 @@ class HomePageBg extends Component {
 						
                 {/* HOME PAGE TEXT */}
                 <div className="homepage-txt text-center text-danger">
-                    <h1 className='display-3'>
+                    <h1 className='display-3 pt-2'>
                         Learn To Read
                     </h1>
                     
@@ -17,7 +17,7 @@ class HomePageBg extends Component {
                         Dive into Learning
                     </h2>
 
-                    <div className='text-center h2' style={{padding:'65px 0px'}}>
+                    <div className='text-center h2' style={{padding:'25px 0px'}}>
                         {/* border border-danger rounded-circle rounded rounded-5 */}
                         <a href="#section" className='' id='caret-down'>
                             <i className="fa-solid fa-angles-down text-danger px-2 py-1"></i>
