@@ -1,11 +1,11 @@
 {
   "files": {
-    "main.css": "/Hope/static/css/main.9d8dde1c.css",
-    "main.js": "/Hope/static/js/main.ec1adb8c.js",
+    "main.css": "/Hope/static/css/main.8e726f7f.css",
+    "main.js": "/Hope/static/js/main.d8070eca.js",
     "static/js/453.d6237472.chunk.js": "/Hope/static/js/453.d6237472.chunk.js",
     "static/media/std1.png": "/Hope/static/media/std1.1aaad69c7f31838d6cad.png",
     "static/media/std3.png": "/Hope/static/media/std3.a42b90760a757e18603f.png",
-    "static/media/bgImage.png": "/Hope/static/media/bgImage.3df5034f8a268c8c7112.png",
+    "static/media/MAHALAKSHMI.jpg": "/Hope/static/media/MAHALAKSHMI.6826384b3c7a5e55512a.jpg",
     "static/media/std2.png": "/Hope/static/media/std2.1824eff07ded1cb56251.png",
     "static/media/SRAVAN KUMAR.jpg": "/Hope/static/media/SRAVAN KUMAR.5baff45e5c9bbeb1c874.jpg",
     "static/media/std4.png": "/Hope/static/media/std4.a9d3a6ce702ef3079076.png",
@@ -16,16 +16,16 @@
     "static/media/USHAKIRAN.jpg": "/Hope/static/media/USHAKIRAN.affa000fcbd273b360e3.jpg",
     "static/media/trending courses.jpg": "/Hope/static/media/trending courses.b9a6177324b2da87b2a9.jpg",
     "static/media/JAGADEESH KUMAR.jpg": "/Hope/static/media/JAGADEESH KUMAR.4045346daa1381d0ebd1.jpg",
-    "static/media/MAHALAKSHMI.jpg": "/Hope/static/media/MAHALAKSHMI.4ce2d155396d806cb565.jpg",
+    "static/media/bgImage.jpg": "/Hope/static/media/bgImage.ab63f0b3d785bb98c461.jpg",
     "static/media/HOPE.jpg": "/Hope/static/media/HOPE.d0c12178a2fbe6e117dd.jpg",
     "static/media/RASAGNA.jpg": "/Hope/static/media/RASAGNA.a0d804ce9814f885f320.jpg",
     "index.html": "/Hope/index.html",
-    "main.9d8dde1c.css.map": "/Hope/static/css/main.9d8dde1c.css.map",
-    "main.ec1adb8c.js.map": "/Hope/static/js/main.ec1adb8c.js.map",
+    "main.8e726f7f.css.map": "/Hope/static/css/main.8e726f7f.css.map",
+    "main.d8070eca.js.map": "/Hope/static/js/main.d8070eca.js.map",
     "453.d6237472.chunk.js.map": "/Hope/static/js/453.d6237472.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9d8dde1c.css",
-    "static/js/main.ec1adb8c.js"
+    "static/css/main.8e726f7f.css",
+    "static/js/main.d8070eca.js"
   ]
 }
