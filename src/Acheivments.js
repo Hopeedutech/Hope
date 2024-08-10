@@ -67,7 +67,7 @@ class Acheivments extends Component {
                             </button>
                         </div>
 
-                        <div className='col-xxl-6 col-xl-6 col-lg-6 col-md-11 col-12 pt-xl-5 py-3 ps-3'>
+                        <div className='col-xxl-6 col-xl-6 col-lg-6 col-md-11 col-12 pt-xl-5 py-3 ps-3 student-content'>
                             
                             <ol>
                                 <li className='pb-2'>

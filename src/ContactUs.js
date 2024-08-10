@@ -46,7 +46,7 @@ function ContactUs() {
                         <div className="design-line"></div>
                     </div>
 
-                    <div className='d-flex justify-content-center align-items-center py-4' >
+                    <div className='d-flex justify-content-center align-items-center py-4' id='contact-us-wallpaper'>
                        
                         <img 
                             id='contactus-img' 
@@ -61,7 +61,7 @@ function ContactUs() {
                         </div>
                     </div>
 
-                    <div className='d-flex flex-wrap justify-content-evenly py-4'>
+                    <div className='d-flex flex-wrap justify-content-evenly py-4' id='Contact-us-details'>
                         <div className='col-xxl-4 col-xl-4 col-lg-4 col-md-4 col-sm-10 col-12'>
 
                             <h5>Get in touch</h5>
@@ -81,7 +81,7 @@ function ContactUs() {
                             
                         </div>
 
-                        <div className='col-xxl-7 col-xl-7 col-lg-7 col-md-7 col-sm-10 col-12'>
+                        <div className='col-xxl-7 col-xl-7 col-lg-7 col-md-7 col-sm-10 col-12 Form'>
 
                             {/* Contact us Form */}
                             <form className='was-validated' onSubmit={(e)=>submitForm(e)}>

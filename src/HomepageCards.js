@@ -9,7 +9,7 @@ import Teachers from './Teachers.png'
 
 function HomepageCards() {
     return (
-        <div className="d-flex flex-wrap justify-content-evenly bg-light pb-5 pt-3">
+        <div className="d-flex flex-wrap justify-content-evenly bg-light pb-5 pt-3" id='Homepagecards'>
 
             <div className="col-xxl-3 col-xl-3 col-lg-3 col-md-3 col-sm-5 col-7 mt-4">
                 <div className="bg-white border border-2 text-center" style={{height:'270px'}} >

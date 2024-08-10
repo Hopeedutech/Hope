@@ -11,6 +11,8 @@ import './App.css';
 
 import { Component } from "react";
 
+import ScrollReveal from 'scrollreveal'
+
 import Staff from "./Staff.js";
 import HomePageBg from "./HomePageBg.js";
 import Acheivments from "./Acheivments.js";
@@ -50,6 +52,31 @@ class App extends Component{
 			else
 				navigateToTop.style.display='none'
 		})	
+		
+		/* Scroll reveal JS */
+		ScrollReveal().reveal('#Homepagecards',{delay:250,reset:true});
+
+		ScrollReveal().reveal('#AboutUs', {delay:150,reset:true});
+		ScrollReveal().reveal('#AboutUs img', {delay:250,reset:true});
+		ScrollReveal().reveal('#AboutUs #accordionExample', {delay:350,reset:true});
+
+		ScrollReveal().reveal('#Acheivements', {delay:200,reset:true});
+		ScrollReveal().reveal('#Acheivements #carouselExampleCaptions', {delay:300,reset:true});
+		ScrollReveal().reveal('.student-content', {delay:450,reset:true});
+
+		ScrollReveal().reveal('#Staff',{delay:150,reset:true});
+		ScrollReveal().reveal('#staff-img1',{delay:200,reset:true});
+		ScrollReveal().reveal('#staff-img2',{delay:260,reset:true});
+		ScrollReveal().reveal('#staff-img3',{delay:320,reset:true});
+		ScrollReveal().reveal('#staff-img4',{delay:380,reset:true});
+		ScrollReveal().reveal('#staff-img5',{delay:440,reset:true});
+
+		ScrollReveal().reveal('#ContactUs',{delay:150,reset:true});
+		ScrollReveal().reveal('#contact-us-wallpaper',{delay:250,reset:true});
+		ScrollReveal().reveal('#Contact-us-details',{delay:300,reset:true});
+		ScrollReveal().reveal('.Form',{delay:350,reset:true});
+		ScrollReveal().reveal('footer',{delay:100,reset:true});
+
 	}
 
     render (){
