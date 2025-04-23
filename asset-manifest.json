@@ -1,11 +1,10 @@
 {
   "files": {
     "main.css": "/Hope/static/css/main.156bc87e.css",
-    "main.js": "/Hope/static/js/main.ff1894df.js",
+    "main.js": "/Hope/static/js/main.8e80d3a5.js",
     "static/js/453.d6237472.chunk.js": "/Hope/static/js/453.d6237472.chunk.js",
     "static/media/std1.png": "/Hope/static/media/std1.1aaad69c7f31838d6cad.png",
     "static/media/std3.png": "/Hope/static/media/std3.a42b90760a757e18603f.png",
-    "static/media/MAHALAKSHMI.jpg": "/Hope/static/media/MAHALAKSHMI.25cae158b02bd10a6b23.jpg",
     "static/media/bgImage.png": "/Hope/static/media/bgImage.3df5034f8a268c8c7112.png",
     "static/media/std2.png": "/Hope/static/media/std2.1824eff07ded1cb56251.png",
     "static/media/SRAVAN KUMAR.jpg": "/Hope/static/media/SRAVAN KUMAR.5baff45e5c9bbeb1c874.jpg",
@@ -16,16 +15,15 @@
     "static/media/Hope wallpaper.jpg": "/Hope/static/media/Hope wallpaper.89d48c19f336b2dae768.jpg",
     "static/media/USHAKIRAN.jpg": "/Hope/static/media/USHAKIRAN.affa000fcbd273b360e3.jpg",
     "static/media/trending courses.jpg": "/Hope/static/media/trending courses.b9a6177324b2da87b2a9.jpg",
-    "static/media/JAGADEESH KUMAR.jpg": "/Hope/static/media/JAGADEESH KUMAR.4045346daa1381d0ebd1.jpg",
     "static/media/HOPE.jpg": "/Hope/static/media/HOPE.d0c12178a2fbe6e117dd.jpg",
     "static/media/RASAGNA.jpg": "/Hope/static/media/RASAGNA.a0d804ce9814f885f320.jpg",
     "index.html": "/Hope/index.html",
     "main.156bc87e.css.map": "/Hope/static/css/main.156bc87e.css.map",
-    "main.ff1894df.js.map": "/Hope/static/js/main.ff1894df.js.map",
+    "main.8e80d3a5.js.map": "/Hope/static/js/main.8e80d3a5.js.map",
     "453.d6237472.chunk.js.map": "/Hope/static/js/453.d6237472.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.156bc87e.css",
-    "static/js/main.ff1894df.js"
+    "static/js/main.8e80d3a5.js"
   ]
 }
