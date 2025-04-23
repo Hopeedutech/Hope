@@ -2,11 +2,9 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React, { Component } from 'react'
 
-import Jagadeesh from './JAGADEESH KUMAR.jpg'
 import Sravankumar from './SRAVAN KUMAR.jpg'
 import Rasagna from './RASAGNA.jpg'
 import Ushakiran from './USHAKIRAN.jpg'
-import Mahalakshmi from './MAHALAKSHMI.jpg'
 
 class Staff extends Component {
     render() {
@@ -134,110 +132,6 @@ class Staff extends Component {
                         </div>
 
                         {/* STAFF-3 */}
-                        <div className="col-xxl-4 col-xl-3 col-lg-3 col-md-5 col-sm-5 col-8 staff mx-4">
-
-                            <img 
-                                className="img-fluid img-thumbnail w-100 h-75" 
-                                id="staff-img3" 
-                                src={Jagadeesh} 
-                                alt="..."/>
-
-                            {/* Staff details shown button */}
-                            <div className="text-start" id="staffbtn">
-                                <button className="btn btn-sm btn-outline-primary rounded rounded-5 mt-4 px-3" data-bs-target="#staff-img3-modal" data-bs-toggle="modal">SEE MORE<i className="fa-solid fa-circle-chevron-right ps-2"></i></button>
-                            </div>
-
-                            {/* Staff details which shows in BS5-modal */}
-                            <div className="modal fade" id="staff-img3-modal" tabIndex="-1">
-                                <div className="modal-dialog modal-dialog-centered modal-dialog-scrollable">
-                                    <div className="modal-content">
-                                        <div className="modal-header">
-                                            <h5 className="modal-title">B. JAGADEESH KUMAR </h5>
-                                            <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                                        </div>
-                                        <div className="modal-body d-flex flex-column justify-content-center align-items-center py-5">
-                                            <h5>Co-Ordinator </h5>
-                                            <small className="">MSc, B.Ed</small>
-
-                                            <div className="d-flex flex-row media-icons mt-3" id='contact-staff'>
-                                                <a href="#" className="btn btn-outline-danger 4 mx-1">
-                                                    <i className="fa-brands fa-facebook"></i>
-                                                </a>
-                                                <a href="https://www.linkedin.com/in/jagadeesh-kumar-bolli-6400321ba/"
-                                                    target='_blank'
-                                                    className="btn btn-outline-danger 4 mx-1">
-                                                    <i className="fa-brands fa-linkedin"></i>
-                                                </a>
-                                                <a href="#" className="btn btn-outline-danger 4 mx-1">
-                                                    <i className="fa-brands fa-instagram"></i>
-                                                </a>
-                                                <a href="mailto:Jagadeeshkumar888bolli@gmail.com" className="btn btn-outline-danger 4 mx-1">
-                                                    <i className="fa-regular fa-envelope"></i>
-                                                </a>
-                                            </div>
-                                        </div>
-                                        <div className="modal-footer">
-                                            <button type="button" className="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            
-                        </div>
-
-                        {/* STAFF-4 */}
-                        <div className="col-xxl-4 col-xl-3 col-lg-3 col-md-5 col-sm-5 col-8 staff mx-4">
-
-                            <img 
-                                className="img-fluid img-thumbnail w-100 h-75" 
-                                id="staff-img4" 
-                                src={Mahalakshmi}
-                                alt="..."/>
-
-                            {/* Staff details shown button */}
-                            <div className="text-start" id="staffbtn">
-                                <button className="btn btn-sm btn-outline-primary rounded rounded-5 mt-4 px-3" data-bs-target="#staff-img4-modal" data-bs-toggle="modal">SEE MORE<i className="fa-solid fa-circle-chevron-right ps-2"></i></button>
-                            </div>
-
-                            {/* Staff details which shows in BS5-modal */}
-                            <div className="modal fade" id="staff-img4-modal" tabIndex="-1">
-                                <div className="modal-dialog modal-dialog-centered modal-dialog-scrollable">
-                                    <div className="modal-content">
-                                        <div className="modal-header">
-                                            <h5 className="modal-title">K. MAHALAKSHMI </h5>
-                                            <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                                        </div>
-                                        <div className="modal-body d-flex flex-column justify-content-center align-items-center py-5">
-                                            <h5>IT Department</h5>
-                                            <small className="">B.TECH</small>
-
-                                            <div className="d-flex flex-row media-icons mt-3" id='contact-staff'>
-                                                <a href="#" className="btn btn-outline-danger 4 mx-1">
-                                                    <i className="fa-brands fa-facebook"></i>
-                                                </a>
-                                                <a href="https://www.linkedin.com/in/mahalakshmi-kutcharlapati-b28977228/"
-                                                    target="_blank"
-                                                    className="btn btn-outline-danger 4 mx-1">
-                                                    <i className="fa-brands fa-linkedin"></i>
-                                                </a>
-                                                <a href="#" className="btn btn-outline-danger 4 mx-1">
-                                                    <i className="fa-brands fa-instagram"></i>
-                                                </a>
-                                                <a href="mailTo:Kavyamaha20@gmail.com" className="btn btn-outline-danger 4 mx-1">
-                                                    <i className="fa-regular fa-envelope"></i>
-                                                </a>
-                                            </div>
-                                        </div>
-                                        <div className="modal-footer">
-                                            <button type="button" className="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            
-                        </div>
-
-                        {/* STAFF-5 */}
                         <div className="col-xxl-4 col-xl-3 col-lg-3 col-md-5 col-sm-5 col-8 staff mx-4">
 
                             <img 
