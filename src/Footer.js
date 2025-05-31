@@ -62,12 +62,6 @@ function Footer() {
                         </div>
 
                         <div className="mb-3">   
-                            <a href="">
-                                <i className="fa-solid fa-phone-flip text-danger pe-2"></i><span>+91 98668 51693</span>
-                            </a>
-                        </div>
-
-                        <div className="mb-3">   
                             <a href="mailto:sunny22892@gmail.com">
                                 <i className="fa-regular fa-envelope text-danger pe-2"></i><span>sunny22892@gmail.com</span>
                             </a>
