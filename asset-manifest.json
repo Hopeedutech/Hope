@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Hope/static/css/main.156bc87e.css",
-    "main.js": "/Hope/static/js/main.8e80d3a5.js",
+    "main.js": "/Hope/static/js/main.bfed39d9.js",
     "static/js/453.d6237472.chunk.js": "/Hope/static/js/453.d6237472.chunk.js",
     "static/media/std1.png": "/Hope/static/media/std1.1aaad69c7f31838d6cad.png",
     "static/media/std3.png": "/Hope/static/media/std3.a42b90760a757e18603f.png",
@@ -19,11 +19,11 @@
     "static/media/RASAGNA.jpg": "/Hope/static/media/RASAGNA.a0d804ce9814f885f320.jpg",
     "index.html": "/Hope/index.html",
     "main.156bc87e.css.map": "/Hope/static/css/main.156bc87e.css.map",
-    "main.8e80d3a5.js.map": "/Hope/static/js/main.8e80d3a5.js.map",
+    "main.bfed39d9.js.map": "/Hope/static/js/main.bfed39d9.js.map",
     "453.d6237472.chunk.js.map": "/Hope/static/js/453.d6237472.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.156bc87e.css",
-    "static/js/main.8e80d3a5.js"
+    "static/js/main.bfed39d9.js"
   ]
 }
